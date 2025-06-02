@@ -109,7 +109,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/1-new-intro-ark',
+                to: '/docs/intro',
               },
             ],
           },
