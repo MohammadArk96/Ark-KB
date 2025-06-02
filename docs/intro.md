@@ -15,7 +15,7 @@ sidebar_position: 1
 ---
 
 ## 📘 Get Started
-
+s
 | 🧩 Section | 📄 Description |
 |-----------|----------------|
 | [Quick Start](docs/intro) | Learn what Ark Trader is and how to start using it immediately. |
