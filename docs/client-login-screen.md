@@ -7,7 +7,7 @@ sidebar_position: 2
 
 *Posted by Iyad Yasser on 10 September 2021 12:14 PM*
 
-![Client Login](/static/img/arkimgs/client-login.png)
+![Client Login](/img/arkimgs/client-login.png)
 
 Thank you for choosing Ark Technologies, the developer and provider of Ark Trading—the first online trading platform choice for traders. Welcome to the Ark Trader family.
 
