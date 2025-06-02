@@ -16768,7 +16768,7 @@ const RAW_RUNTIME_STATE =
           ["terser-webpack-plugin", "virtual:69c5c90c89dc89f6570e9724ddfdce81bdd4e5e5ebdd4c1a7d1db2bc2c74269a7c19e4c6a9fb206fbdc6ce37d5a8abae51d522b14baf3b87d161ddbed42a5f1a#npm:5.3.14"],\
           ["watchpack", "npm:2.4.4"],\
           ["webpack-cli", null],\
-          ["webpack-sources", "npm:3.3.0"]\
+          ["webpack-sources", "npm:3.3.2"]\
         ],\
         "packagePeers": [\
           "@types/webpack-cli",\
@@ -16904,10 +16904,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["webpack-sources", [\
-      ["npm:3.3.0", {\
-        "packageLocation": "../../Users/Moham/AppData/Local/Yarn/Berry/cache/webpack-sources-npm-3.3.0-d819b71c03-10c0.zip/node_modules/webpack-sources/",\
+      ["npm:3.3.2", {\
+        "packageLocation": "../../Users/Moham/AppData/Local/Yarn/Berry/cache/webpack-sources-npm-3.3.2-f09081dae9-10c0.zip/node_modules/webpack-sources/",\
         "packageDependencies": [\
-          ["webpack-sources", "npm:3.3.0"]\
+          ["webpack-sources", "npm:3.3.2"]\
         ],\
         "linkType": "HARD"\
       }]\
