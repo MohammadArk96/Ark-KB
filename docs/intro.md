@@ -1,39 +1,33 @@
 ---
+id: intro
+title: Introduction
+sidebar_label: 👋 Introduction
 hide_table_of_contents: true
 description: The official documentation for Ark Trader – Setup, policies, integration, trading tools, and more.
-sidebar_position: 1
 ---
 
-# Welcome to Ark Trader Knowledge Base 🚀
+# 👋 Welcome to Ark Trader Docs
 
-<div style={{ textAlign: 'left', marginBottom: '3rem' }}>
-  <p style={{ fontSize: '1.2rem', color: '#666' }}>
-    Everything you need to build, manage, and customize your Ark Trader platform experience.
-  </p>
-</div>
+Everything you need to build, manage, and customize your Ark Trader platform experience.
 
 ---
 
 ## 📘 Get Started
-s
+
 | 🧩 Section | 📄 Description |
 |-----------|----------------|
-| [Quick Start](./intro) | Learn what Ark Trader is and how to start using it immediately. |
-| [Client Setup](./client-login-screen) | Guide your clients through logging in, creating accounts, and recovering access. |
-| [Script Policies](./clients-script-policy) | Configure trading permissions and limits per script or group. |
-| [Generic Policies](./client-generic-policy) | Set global policies across all client types. |
-| [Integration Guide](./api-overview) | API docs and examples for backend integration. |
-| [Space Station Settings](./space-settings) | Advanced admin tools for margin, trading rules, and enforcement. |
+| [Quick Start](intro.md) | Learn what Ark Trader is and how to start using it immediately. |
+| [Client Setup](1-Client Help Articles/1-client-login-screen.md) | Guide your clients through logging in, creating accounts, and recovering access. |
+| [Script Policies](2-Admin Dealer Help Articles/clients-script-policy-enhanced.md) | Configure trading permissions and limits per script or group. |
 
 ---
 
 ## 🔍 Popular Topics
 
-- ✅ [Client Login Guide](./client-login-screen)
-- ⚙️ [Commission Rules](./clients-script-policy#commission-settings)
-- 📊 [Limit/Stop Offsets](./clients-script-policy#limit-and-stop-offset)
-- 🔐 [Holding Margins](./clients-script-policy#holding-margin)
-- 🔌 [API Authentication](./api-authentication)
+- ✅ [Client Login Guide](1-Client Help Articles/1-client-login-screen.md)
+- ⚙️ [Commission Rules](2-Admin Dealer Help Articles/clients-script-policy-enhanced.md#commission-settings)
+- 📊 [Limit/Stop Offsets](2-Admin Dealer Help Articles/clients-script-policy-enhanced.md#limit-and-stop-offset)
+- 🔐 [Holding Margins](2-Admin Dealer Help Articles/clients-script-policy-enhanced.md#holding-margin)
 
 ---
 
