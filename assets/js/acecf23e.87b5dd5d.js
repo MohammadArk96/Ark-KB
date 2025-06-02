@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkark_kb=self.webpackChunkark_kb||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/Ark-KB/blog","blogTitle":"Blog","authorsListPath":"/Ark-KB/blog/authors"}')}}]);

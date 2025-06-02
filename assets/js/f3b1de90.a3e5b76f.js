@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkark_kb=self.webpackChunkark_kb||[]).push([[1255],{4827:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/Ark-KB/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
