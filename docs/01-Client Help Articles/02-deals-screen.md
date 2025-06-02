@@ -1,8 +1,12 @@
 ---
 id: deals-screen
 title: 📊 Deals Screen
+sidebar_label: 'Deals Screen'
+slug: /deals-screen
 sidebar_position: 2
-description: Monitor and manage all your active trading deals in real-time.
+tags: [deals, trading, management, SL, TP]
+keywords: [deals, active trades, trading panel, SL TP settings, trader tools]
+description: A complete guide to monitoring, managing, and editing active trading deals including SL/TP, comments, and quick actions.
 ---
 
 import Tabs from '@theme/Tabs';
