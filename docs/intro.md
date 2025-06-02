@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 id: intro
 title: Introduction
 sidebar_label: 👋 Introduction
