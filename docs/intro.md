@@ -18,8 +18,10 @@ Everything you need to build, manage, and customize your Ark Trader platform exp
 | 🧩 Section | 📄 Description |
 |-----------|----------------|
 | [Quick Start](intro.md) | Learn what Ark Trader is and how to start using it immediately. |
-| [Client Setup](01-Client Help Articles/1-client-login-screen.md) | Guide your clients through logging in, creating accounts, and recovering access. |
+| [Client Setup](/docs/01-Client%20Help%20Articles/01-client-login-screen.md) | Guide your clients through logging in, creating accounts, and recovering access. |
 | [Script Policies](02-Admin Dealer Help Articles/clients-script-policy-enhanced.md) | Configure trading permissions and limits per script or group. |
+
+
 
 ---
 
