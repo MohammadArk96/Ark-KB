@@ -18,22 +18,22 @@ sidebar_position: 1
 s
 | 🧩 Section | 📄 Description |
 |-----------|----------------|
-| [Quick Start](docs/intro) | Learn what Ark Trader is and how to start using it immediately. |
-| [Client Setup](docs/client-login-screen) | Guide your clients through logging in, creating accounts, and recovering access. |
-| [Script Policies](docs/clients-script-policy) | Configure trading permissions and limits per script or group. |
-| [Generic Policies](docs/client-generic-policy) | Set global policies across all client types. |
-| [Integration Guide](docs/api-overview) | API docs and examples for backend integration. |
-| [Space Station Settings](docs/space-settings) | Advanced admin tools for margin, trading rules, and enforcement. |
+| [Quick Start](intro) | Learn what Ark Trader is and how to start using it immediately. |
+| [Client Setup](client-login-screen) | Guide your clients through logging in, creating accounts, and recovering access. |
+| [Script Policies](clients-script-policy) | Configure trading permissions and limits per script or group. |
+| [Generic Policies](client-generic-policy) | Set global policies across all client types. |
+| [Integration Guide](api-overview) | API docs and examples for backend integration. |
+| [Space Station Settings](space-settings) | Advanced admin tools for margin, trading rules, and enforcement. |
 
 ---
 
 ## 🔍 Popular Topics
 
-- ✅ [Client Login Guide](docs/client-login-screen)
-- ⚙️ [Commission Rules](docs/clients-script-policy#commission-settings)
-- 📊 [Limit/Stop Offsets](docs/clients-script-policy#limit-and-stop-offset)
-- 🔐 [Holding Margins](docs/clients-script-policy#holding-margin)
-- 🔌 [API Authentication](docs/api-authentication)
+- ✅ [Client Login Guide](client-login-screen)
+- ⚙️ [Commission Rules](clients-script-policy#commission-settings)
+- 📊 [Limit/Stop Offsets](clients-script-policy#limit-and-stop-offset)
+- 🔐 [Holding Margins](clients-script-policy#holding-margin)
+- 🔌 [API Authentication](api-authentication)
 
 ---
 
