@@ -18,17 +18,17 @@ Everything you need to build, manage, and customize your Ark Trader platform exp
 | 🧩 Section | 📄 Description |
 |-----------|----------------|
 | [Quick Start](intro.md) | Learn what Ark Trader is and how to start using it immediately. |
-| [Client Setup](1-Client Help Articles/1-client-login-screen.md) | Guide your clients through logging in, creating accounts, and recovering access. |
-| [Script Policies](2-Admin Dealer Help Articles/clients-script-policy-enhanced.md) | Configure trading permissions and limits per script or group. |
+| [Client Setup](01-Client Help Articles/1-client-login-screen.md) | Guide your clients through logging in, creating accounts, and recovering access. |
+| [Script Policies](02-Admin Dealer Help Articles/clients-script-policy-enhanced.md) | Configure trading permissions and limits per script or group. |
 
 ---
 
 ## 🔍 Popular Topics
 
-- ✅ [Client Login Guide](1-Client Help Articles/1-client-login-screen.md)
-- ⚙️ [Commission Rules](2-Admin Dealer Help Articles/clients-script-policy-enhanced.md#commission-settings)
-- 📊 [Limit/Stop Offsets](2-Admin Dealer Help Articles/clients-script-policy-enhanced.md#limit-and-stop-offset)
-- 🔐 [Holding Margins](2-Admin Dealer Help Articles/clients-script-policy-enhanced.md#holding-margin)
+- ✅ [Client Login Guide](10-Client Help Articles/1-client-login-screen.md)
+- ⚙️ [Commission Rules](02-Admin Dealer Help Articles/clients-script-policy-enhanced.md#commission-settings)
+- 📊 [Limit/Stop Offsets](02-Admin Dealer Help Articles/clients-script-policy-enhanced.md#limit-and-stop-offset)
+- 🔐 [Holding Margins](02-Admin Dealer Help Articles/clients-script-policy-enhanced.md#holding-margin)
 
 ---
 
