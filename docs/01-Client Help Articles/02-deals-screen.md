@@ -1,130 +1,137 @@
 ---
+id: deals-screen
+title: 📊 Deals Screen
+sidebar_label: 'Deals Screen'
+slug: /deals-screen
+sidebar_position: 2
+tags: [deals, trading, management, SL, TP]
+keywords: [deals, active trades, trading panel, SL TP settings, trader tools]
+description: A complete guide to monitoring, managing, and editing active trading deals including SL/TP, comments, and quick actions.
+---
 
-id: order-screen
-title: 📋 Order Screen
-sidebar\_label: 'Order Screen'
-slug: /order-screen
-sidebar\_position: 3
-tags: \[orders, trading, pending orders, SL, TP]
-keywords: \[pending orders, buy limit, sell stop, stop loss, take profit, trader tools]
-description: A full guide for monitoring and managing pending trading orders including stop loss, take profit, and execution behavior.
---------------------------------------------------------------------------------------------------------------------------------------
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import Admonition from '@theme/Admonition';
 
-# 📋 Order Screen Overview
+# 📊 Deals Screen Overview
 
-Welcome to the **Order Screen** — your central hub for tracking and managing all six types of pending orders in detail.
+Welcome to the **Deals Screen** — your central dashboard for monitoring **live trading activity** with precision. This screen gives you deep insight into all open trades including their values, margins, profits, and actions.
 
-![Order Screen](https://arktechltd.com/Knowledgebase/OrderScreen.png)
+![Deals Screen UI](https://arktechltd.com/Knowledgebase/Client'sdealsscreen.png)
 
-\:::info What does the Order Screen do?
-This screen displays and manages the following pending order types:
-
-* **Buy Limit**
-* **Sell Limit**
-* **Buy Stop**
-* **Sell Stop**
-* **Stop Loss (SL)**
-* **Take Profit (TP)**
-  \:::
-
-## 🧾 Key Data Fields
-
-### 📌 Script Name
-
-The name of the instrument for which the order is placed.
-
-### 🔢 Order Number
-
-A unique, non-duplicate identifier for each pending order.
-
-### 🕒 Date/Time
-
-The timestamp (in milliseconds) indicating when the order was created.
-
-### 💰 Amount
-
-The amount the trader specifies to open or close the order with.
-
-### 🎯 Pending Price
-
-The target price at which the order is intended to be triggered.
-
-### 📉 Current Price
-
-* For **Buy orders** (Buy Limit / Buy Stop): shows the **Ask** price.
-* For **Sell orders** (Sell Limit / Sell Stop): shows the **Bid** price.
-* **SL/TP** depends on the type of deal.
-
-### 🛑 Stop Loss (SL)
-
-If the order is:
-
-* **Buy** → SL must be *lower* than the market price.
-* **Sell** → SL must be *higher* than the market price.
-
-💡 *Double-click the SL cell to set or update the Stop Loss value.*
-
-### 🎯 Take Profit (TP)
-
-If the order is:
-
-* **Buy** → TP must be *higher* than the market price.
-* **Sell** → TP must be *lower* than the market price.
-
-💡 *Double-click the TP cell to set or update the Take Profit value.*
-
-### 💬 Comment
-
-Notes from the trader, added from desktop or mobile for future reference. Useful for logging reasons like news or gold price moves.
+<Admonition type="tip" title="Live Trading Control Center">
+Track, adjust, and manage every trade you open. From SL/TP to custom notes — it's all here.
+</Admonition>
 
 ---
 
-## ⚠️ Order Execution Notes
+## 🧾 Deal Information at a Glance
 
-\:::warning Important
-Even if the last price touches the pending price, the order might not trigger:
+Each row represents an open deal with detailed attributes:
 
-* If the **Last Price** is not broadcast as a **Bid** or **Ask**, the order won’t hit.
-* Some brokers only allow triggering based on **Bid/Ask**.
-* Others also include **High/Low** — depends on your **Dealing Room Configuration**.
-  \:::
-
-If SL is hit with the full amount, the open deal is closed completely and any TP on the same deal is automatically canceled.
+| Field | Description |
+|-------|-------------|
+| **Script Name** | The asset involved in the deal |
+| **Ticket ID** | Unique ID for the trade |
+| **Date / Time** | Timestamp of trade request (milliseconds) |
+| **Buy / Sell** | Trade direction |
+| **Amount** | Volume of the trade |
+| **Open Price** | Entry price for the deal |
+| **Current Price** | Real-time price (Bid for Buy, Ask for Sell) |
+| **Open Commission** | Broker fee applied at opening |
+| **Used Margin** | Funds locked as collateral |
+| **PnL** | Profit & Loss calculated live |
+| **Value** | Cost: `Amount × Contract × Open Price` |
+| **Comment** | Trader remarks (e.g., "News-based", "OneClick") |
 
 ---
 
-## 🧰 Menu Options
+## 🎯 SL / TP Configuration
 
-### 🔄 Update Order
+<Tabs>
+<TabItem value="stop-loss" label="🛑 Stop Loss (SL)" default>
 
-Opens the [Quotes Screen](https://help.arktechltd.com/index.php?/Knowledgebase/Article/View/2/1/quotes-screen) to modify SL or TP.
+**Stop Loss** allows automatic closing at a set loss threshold.
 
-![Update Order](https://arktechltd.com/Knowledgebase/UpdateOrder.png)
+- **Buy Deal** ➜ SL must be **below** market price.
+- **Sell Deal** ➜ SL must be **above** market price.
 
-### ❌ Cancel Checked Orders
+💡 *Double-click the SL cell to apply.*
 
-Cancel one or multiple selected orders with a single action.
+</TabItem>
+<TabItem value="take-profit" label="💰 Take Profit (TP)">
 
-### 📈 Go To Market
+**Take Profit** allows automatic closing when reaching a set profit.
 
-Converts the pending order into a market order instantly based on current market price.
+- **Buy Deal** ➜ TP must be **above** market price.
+- **Sell Deal** ➜ TP must be **below** market price.
 
-### 🔤 Font Settings
+💡 *Double-click the TP cell to apply.*
 
-Customize font type, size, and appearance.
+</TabItem>
+</Tabs>
 
-![Font Settings](https://arktechltd.com/Knowledgebase/FontSettings.png)
+---
 
-### 📊 Column Chooser
+## ⚙️ Actions Menu
 
-Use drag-and-drop to hide columns. To restore, double-click the column name in the popup.
+### 📌 Right-Click Options
+
+You can right-click on any deal to access:
+
+#### 📍 Place SL/TP Order
+
+![Place SLTP Order](https://arktechltd.com/Knowledgebase/PlaceAnSLTPOrder.png)
+
+```txt
+✔ Validate price rules based on direction.
+✔ Submit partial or full amount.
+✔ Add optional comments (shown in History screen).
+```
+
+#### ✅ One-Click Features
+
+Provided (if broker allows):
+
+- **Close Checked**: End multiple trades instantly.
+- **Duplicate Checked**: Copy selected trades in same direction.
+- **Hedge Checked**: Create opposite direction trades.
+
+### 🧠 Smart Selection
+
+You can filter open trades and apply actions:
+- All Deals
+- Profitable Only
+- Unprofitable Only
+
+![Filter & Select](https://arktechltd.com/Knowledgebase/Client'sdealsscreenselectmenu.png)
+
+---
+
+## 🎨 Personalize Your Interface
+
+### ✏️ Font Settings
+
+![Font Settings](https://arktechltd.com/Knowledgebase/FontSettings.png)  
+Customize font type, size, and display — just for this screen.
+
+### 🧩 Column Chooser
 
 ![Column Chooser](https://arktechltd.com/Knowledgebase/ColumnChooser.png)
 
-### 📤 Export / Auto Arrange
-
-More features available in the [Export & Arrange article](https://help.arktechltd.com/index.php?/Knowledgebase/Article/View/43).
+Drag and drop columns to hide or re-show them. A minimalist layout is one click away.
 
 ---
 
-Need help? Visit the [Order Screen Help Page](https://help.arktechltd.com/index.php?/Knowledgebase/Article/View/4/5/order-screen).
+## 📤 Export & Layout Tools
+
+- **Export To** – Export table data to different formats  
+- **Auto Arrange [A]** – Neatly auto-align all columns
+
+[Learn more ➜](https://help.arktechltd.com/index.php?/Knowledgebase/Article/View/43)
+
+---
+
+<Admonition type="info" title="Need Help?">
+If any options are not available, contact your broker to enable advanced actions or permissions.
+</Admonition>
