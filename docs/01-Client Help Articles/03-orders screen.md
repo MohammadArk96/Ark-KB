@@ -1,12 +1,11 @@
 ---
-
 id: order-screen
 title: 📋 Order Screen
-sidebar\_label: 'Order Screen'
+sidebar_label: 'Order Screen'
 slug: /order-screen
-sidebar\_position: 3
-tags: \[orders, trading, pending orders, SL, TP]
-keywords: \[pending orders, buy limit, sell stop, stop loss, take profit, trader tools]
+sidebar_position: 3
+tags: [orders, trading, pending orders, SL, TP]
+keywords: [pending orders, buy limit, sell stop, stop loss, take profit, trader tools]
 description: A full guide for monitoring and managing pending trading orders including stop loss, take profit, and execution behavior.
 --------------------------------------------------------------------------------------------------------------------------------------
 
